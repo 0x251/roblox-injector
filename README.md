@@ -1,7 +1,7 @@
 
 ### Injection POC
 - ``amdxx64.dll`` & ``nviapi64.dll`` Are both whitelisted DLL's, that roblox allow's to be loaded therfore you can use ``SetWindowsHookExA``
--  Another method of injection is ``Cert Spoofing``, Spoofing the Cert to any Whitelisted DLL's Cert, Require's a REG edit though to allow fake cert's
+-  Another method of injection is ``Cert Spoofing``, Spoofing the Cert to any Whitelisted DLL's Cert, Require's a REG edit though to allow fake cert's https://github.com/secret-blox/secret-blox-sign
 -  Rename any DLL to ``amdxx64.dll`` or ``nviapi64.dll`` and in boblox.py change the ``DLL_PATH`` & ``DLL_CALLBACK``
 
 
